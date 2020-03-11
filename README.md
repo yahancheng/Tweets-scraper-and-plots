@@ -6,14 +6,29 @@
 2. tweet_plot.py: Use tweets data to plot wordcloud of hashtags, make frequency charts, and find top KOL of certain topic.
 
 ## Example
-### #IVoted
+### Hashtag: #IVoted
 
 #### 1. Word Cloud
-![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png)
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png" alt="drawing" width="200"/>
+
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png" alt="drawing" width="500"/>
 
 #### 2. Frequency Chart
-![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.41%20PM.png)
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.41%20PM.png" alt="drawing" width="500"/>
 
 #### 3. Top 10 KOL
-![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.47%20PM.png)
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.47%20PM.png" alt="drawing" width="450"/>
+
+
+### Hashtag: #conoravirus
+
+#### 1. Word Cloud
+
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.10%20PM.png" alt="drawing" width="500"/>
+
+#### 2. Frequency Chart
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.30%20PM.png" alt="drawing" width="500"/>
+
+#### 3. Top 10 KOL
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.37%20PM.png" alt="drawing" width="450"/>
+
+
