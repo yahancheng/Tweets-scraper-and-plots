@@ -9,7 +9,8 @@
 ### #IVoted
 
 #### 1. Word Cloud
-![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png =600x400)
+![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png)
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png" alt="drawing" width="200"/>
 
 #### 2. Frequency Chart
 ![image](https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.41%20PM.png)
