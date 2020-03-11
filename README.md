@@ -11,25 +11,37 @@
 
 #### 1. Word Cloud
 
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.30%20PM.png" alt="drawing" width="500"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-11%20at%205.47.25%20PM.png" alt="drawing" width="500"/>
 
 #### 2. Frequency Chart
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.41%20PM.png" alt="drawing" width="500"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/IVoted_freq.png" alt="drawing" width="500"/>
 
 #### 3. Top 10 KOL
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%208.33.47%20PM.png" alt="drawing" width="450"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/IVoted_KOL.png" alt="drawing" width="450"/>
 
 
 ### Hashtag: #conoravirus
 
 #### 1. Word Cloud
 
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.10%20PM.png" alt="drawing" width="500"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/coronavirus_wordcloud.png" alt="drawing" width="500"/>
 
 #### 2. Frequency Chart
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.30%20PM.png" alt="drawing" width="500"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/coronavirus_freq.png" alt="drawing" width="500"/>
 
 #### 3. Top 10 KOL
-<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/Screen%20Shot%202020-03-10%20at%207.43.37%20PM.png" alt="drawing" width="450"/>
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/coronavirus_KOL.png" alt="drawing" width="450"/>
 
 
+
+### Hashtag: #TWforWHO
+
+#### 1. Word Cloud
+
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/TWforWHO_wordcloud.png" alt="drawing" width="500"/>
+
+#### 2. Frequency Chart
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/TWforWHO_freq.png" alt="drawing" width="500"/>
+
+#### 3. Top 10 KOL
+<img src="https://github.com/yahancheng/Tweets-scraper-and-plots/blob/master/sample_plot/TWforWHO_KOL.png" alt="drawing" width="450"/>
