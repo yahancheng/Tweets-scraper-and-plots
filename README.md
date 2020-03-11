@@ -1,9 +1,10 @@
 # Tweets-scraper-and-plots
 
 ## File description:
-1. tw_scraper.py: It is a twitter scraper based on twitterscraper module (https://github.com/taspinar/twitterscraper). In this script, the function recursively scrape tweets with twitterscraper of certain hashtag in smaller time period to avoid those constraints
+1. tw_scraper.py: It is a twitter scraper based on twitterscraper module (https://github.com/taspinar/twitterscraper). In this script, the function recursively scrapes tweets with twitterscraper of a certain hashtag in smaller time period to avoid the constraints of API and twitterscraper module described in the function description
 
-2. tweet_plot.py: Use tweets data to plot wordcloud of hashtags, make frequency charts, and find top KOL of certain topic.
+2. tweet_plot.py: Use tweets data to plot wordcloud of hashtags, make frequency charts, and find top KOL of a certain topic.
+
 
 ## Example
 ### Hashtag: #IVoted

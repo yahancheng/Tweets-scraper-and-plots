@@ -10,7 +10,7 @@ def tw_scraper(hashtag, start_date, end_date):
     Using twitterscraper module can scrape without this limitation
     But the maximum tweets per search on my machine is around 13,000
     
-    This function recursively scrape tweets with twitterscraper
+    This function recursively scrapes tweets with twitterscraper
     of certain hashtag in smaller time period to avoid those constraints
     
     Inputs:
