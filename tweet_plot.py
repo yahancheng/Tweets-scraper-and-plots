@@ -3,6 +3,9 @@ import datetime as dt
 import re
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
+import matplotlib.style as style
+import numpy as np
+style.use('fivethirtyeight')
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 pd.options.display.max_rows = 10
 
@@ -39,7 +42,7 @@ def hash_list(series):
 
 
 
-def plot_wordcloud(output, color="Reds", size=(100, 80)):
+def plot_wordcloud(output, name, color="Reds", size=(100, 80)):
     '''
     Plots word cloud
     Input:
@@ -71,7 +74,7 @@ def trans_date(timestp):
         return dt.date(date[0], date[1], date[2])
 
 
-def plot_day_freq(df, day_interval=10, n=2):
+def plot_day_freq(df, hashtag, day_interval=10, n=2):
     '''
     Plots daily frequecy plot for a hashtag
     Inputs:
@@ -100,13 +103,13 @@ def plot_day_freq(df, day_interval=10, n=2):
             date_ls.append(row[1][1])
             num_ls.append((row[1][1], row[1][0]))
     
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(8, 6))
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=day_interval))
     plt.plot(day, freq)
-
+    plt.title("{} Number of Tweets Over Time".format("#"+hashtag))
     for iters in num_ls[:n]:
-        plt.text(iters[0], iters[1]+120, iters[0].strftime("%Y-%m-%d"))
+        plt.text(iters[0], iters[1]+80, iters[0].strftime("%Y-%m-%d"))
     
     plt.gcf().autofmt_xdate()
     plt.show()
@@ -147,24 +150,28 @@ def find_KOL(df):
 
 ### #IVoted
 ivoted_df = read_tweets_file('ivoted_df')
-plot_wordcloud(hash_list(ivoted_df['hashtags']), color="Blues")
-plot_day_freq(ivoted_df)
+plot_wordcloud(hash_list(ivoted_df['hashtags']), "ivoted", color="Blues")
+plot_day_freq(ivoted_df, "IVoted")
 find_KOL(ivoted_df)
 
 ### #coronavirus
 coronavirus = read_tweets_file("corona_df")
-plot_wordcloud(hash_list(coronavirus['hashtags']))
-plot_day_freq(coronavirus, n = 1)
+plot_wordcloud(hash_list(coronavirus['hashtags']), "coronavirus")
+plot_day_freq(coronavirus, "coronavirus", n = 3)
 find_KOL(coronavirus)
 
 
 ### #metoo
 metoo = read_tweets_file("metoo_df")
-plot_wordcloud(hash_list(metoo['hashtags']))
-plot_day_freq(metoo)
+plot_wordcloud(hash_list(metoo['hashtags']), "metoo")
+plot_day_freq(metoo, "metoo")
 find_KOL(metoo)
 
-
+### #TWforWHO
+twforwho = read_tweets_file("twforwho")
+plot_wordcloud(hash_list(twforwho['hashtags']), "twforwho", "Blues")
+plot_day_freq(twforwho, "TWforWHO", 3)
+find_KOL(twforwho)
 
 
 
